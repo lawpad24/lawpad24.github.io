@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MIND MADNESS</title>
+    <title>VIDEO ORIENTATION</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="cover.css">
     <link rel="stylesheet" href="bootstrap.min(1).css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&family=Ubuntu:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body style="background-image:url(pexels-cottonbro-studio-6153354.jpg); background-repeat: no-repeat; background-attachment:fixed; background-size: 100% 100%;">
     <div class="container text-center">
       <div class="row">
         <div class="col">
@@ -23,17 +23,19 @@
         <div class="col">
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Courses
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="basic.html">Basic Course</a></li>
+                      <li><a class="dropdown-item" href="advance.html">Advance Course</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="onlinebiz.html">Online Business Masterclass</a></li>
+                    </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="faqs.html">FAQS</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Logout</a>
                   </li>
                 </ul>
               </div>
@@ -42,18 +44,12 @@
         </div>
       </div>
     </div>
-    <video autoplay loop muted plays-inline class="back-video"> 
-      <source src="screen saver/pexels-cottonbro-studio-3945144-4096x2160-50fps.mp4" type="video/mp4">
-    </video>
 
-    <div class="Header1" style="padding-top: 100px;">
+    <div class="Header1">
       <h1 class="text-center">MIND MADNESS</h1>
         <h5 class="text-center">LEARN NEW SKILL EARN NEW LIFE</h5>
         <p>
-          Accelerate Your Career Online
-        </p>
-        <p>
-          The Best Collection place for gaining power of knowledge, skills and new opportunities.
+          WELCOME ABOARD!!!
         </p>
       </div> 
       
@@ -62,26 +58,21 @@
           <div class="col">
           </div>
           <div class="col">
-            <button type="button" onclick="document.location='login.html'" class="btn btn-dark">
-              <svg style="padding-right:6px; padding-bottom:3px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-square" viewBox="0 0 16 16">
-                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                <path d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z"/>
-              </svg>LOG-IN</button>
-            <button type="button" onclick="document.location='signup.html'"class="btn btn-dark">
-              <svg style="padding-right:6px; padding-bottom:3px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-square-fill" viewBox="0 0 16 16">
-              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"/>
-            </svg>SIGN-UP</button>
+            <embed style="width:720px; height:480px;" src="https://www.youtube.com/embed/LfnQRCkATx4"></embed>
+            <button type="button" onclick="document.location='profile.html'" class="btn btn-dark" style="margin-top: 20px;">Back to Profile</button>
           </div>
           <div class="col" style="padding-bottom: 250px;">
           </div>
         </div>
       </div>
+
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <div class="b-example-divider"></div>
-<div class="container">
-  <footer class="text-center" style="margin-top: 60px;">
-    &copy; 2023 mindmadness.tech
-  </footer>
-</div>
+    <div class="container">
+      <footer class="text-center" style="margin-top: 20px; margin-bottom: 20px;">
+        &copy; 2023 mindmadness.tech
+      </footer>
+    </div>
   </body>
 </html>
